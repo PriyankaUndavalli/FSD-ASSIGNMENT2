@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="header">
+        <div class="logo">Priyanka Undavalli</div>
+        <div>
+        <h3>undavallipriyanka809@gmail.com</h3>
+        </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Sections -->
+    <section id="home" class="section">
+        <div class="home-content">
+            <img src="girl.jpeg" alt="Profile Picture" class="profile-img">
+            <h2>Hi I'm Priyanka</h2>
+            <p class="designation"><h1>Web Developer</h1></p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1 style="text-align: center;">About Me</h1>
+                    <p>
+                        I have a deep understanding of computer science principles, which I apply to create efficient, maintainable, and secure code. My expertise includes frontend technologies like HTML, CSS, JavaScript, and React, as well as backend development with Node.js, Python, and SQL databases.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers. I'm always eager to take on new challenges and make a positive impact through my work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h1>Professional Skills</h1>
+            <div class="skill">
+                <label>HTML5</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>CSS3</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>JavaScript</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Python</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>SQL</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="works" class="section">
+        <h1 style="text-align: center;">My Works</h1>
+        <div class="container">
+            <div class="works-grid">
+                <div class="work-item">
+                    <div class="work-info">
+                        <h3>Leveraging CAT Boost for Enhanced Prediction ofApp Ratings in
+                        the Google Play Store</h3>
+                        <p>The explosion of mobile applications in recent years has led to a highly competitive environment, where app ratings play a critical role in determining an app's success. Predicting app ratings accurately can help developers optimize their applications and improve user satisfaction. One of the advanced machine learning techniques that can be used for this purpose is CAT Boost (Categorical Boosting), a powerful algorithm particularly well-suited for handling categorical data and producing high-quality predictions.</p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-info">
+                        <h3>Ant-BERT based Optimized Fake News Detection</h3>
+                        <p>This hybrid approach aims to combine the strengths of BERT’s natural language understanding with the optimization capabilities of ACO to enhance the detection accuracy. ACO helps fine-tune the selection of important features, improving the efficiency and robustness of the detection system. Together, these techniques create a more scalable and adaptive model that can better differentiate between real and fake news, even in complex contexts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>Connect with me</h3>
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-wifi"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
